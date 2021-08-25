@@ -1,5 +1,5 @@
 # PIC18F45K22-project
-Simple project which demonstrates serial communication, PWM and ADC done as team project in subject Fundamentals of Digital Electronics on **EasyPIC v7** development board equipped with **PIC18F45K22** microcontroller.
+Simple project which demonstrates serial communication, DAC and ADC done as team project in subject Fundamentals of Digital Electronics on **EasyPIC v7** development board equipped with **PIC18F45K22** microcontroller.
 
 
 #### Python communication program
