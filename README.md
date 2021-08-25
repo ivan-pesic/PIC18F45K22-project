@@ -8,7 +8,7 @@ Simple project which demonstrates serial communication, DAC and ADC done as team
 - The program initially establishes connection with the COM3 serial port. Then flushes input and output buffers so that they would not affect the sending/receiving of data later. 
 - Execution of the program is cyclic, where the user is first asked for the voltage value which is then processed. 
 - If the value is not valid, the program exits. 
-- If the value of the program is **f**, the program again flushes input and output buffers in case of communication problems. 
+- If the value is **f**, the program again flushes input and output buffers in case of communication problems. 
 - If the value is correct (float), it is then limited to DAC range (0V - 5V) and is sent as series of characters to the microcontroller. 
 - As a confirmation, the  microcontroller should send the same message back. The program waits 2 seconds before next transmission.
 
